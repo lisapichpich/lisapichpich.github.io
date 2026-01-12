@@ -8,6 +8,20 @@ body {
 img {
 width: 15%;
 display:block;
-margin:auto;
 border-width: 2px; border-style: solid; border-color: rgb(68, 47, 27);
+cursor:pointer
+}
+#texte {
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40ch;
+    word-wrap: break-word;
+    margin-left: 15px;
+    margin: 0;
+    border-width: 2px; border-style: dashed;
+}
+.bloc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
