@@ -8,9 +8,27 @@
     <body>
         <div>
             <h1>
-                Hercule Poirot
+                Aidez Hercule Poirot
             </h1>
-            <img src="hercule_poirot.png" alt="détective" />
-        </div>       
+        </div>
+        <div class="bloc">
+            <img 
+            src="hercule_poirot.png" alt="détective"
+            onclick="afficherTexte()"
+            >
+            <p id="texte">
+                Hercule Poirot est un personnage de fiction issu des romans d'Agatha Christie. Détective belge installé en Angleterre,
+                célèbre pour son intelligence exceptionnelle et son sens obsessionnel de l’ordre.
+                Plutôt que la force ou l’action, il résout les crimes grâce à l’observation et à la psychologie,
+                en faisant appel à ses fameuses « petites cellules grises ».
+            </p>
+        </div>
+        <script>
+        function afficherTexte() {
+            const texte = document.getElementById("texte");
+            texte.style.display =
+            texte.style.display === "none" ? "block" : "none";
+        }
+        </script>
     </body>
 </html>
