@@ -4,9 +4,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Enquête à l'Orient Express</title>
         <link rel="stylesheet" href="site.css">
+        <script src="script.js" type="text/javascript"> </script>
     </head>
     <body>
-        <div>
+        <div id="gros_titre">
+            <h2>Accueil</h2>
             <h1>
                 Aidez Hercule Poirot
             </h1>
@@ -16,6 +18,7 @@
             src="hercule_poirot.png" alt="détective"
             onclick="afficherTexte()"
             >
+
             <p id="texte">
                 Hercule Poirot est un personnage de fiction issu des romans d'Agatha Christie. Détective belge installé en Angleterre,
                 célèbre pour son intelligence exceptionnelle et son sens obsessionnel de l’ordre.
@@ -23,12 +26,11 @@
                 en faisant appel à ses fameuses « petites cellules grises ».
             </p>
         </div>
-        <script>
-        function afficherTexte() {
-            const texte = document.getElementById("texte");
-            texte.style.display =
-            texte.style.display === "none" ? "block" : "none";
-        }
-        </script>
+        <div>
+            <a href="train.html" title="train">train</a>
+            <a href="enquete.html" title="Preuves">Preuves</a>
+            <a href="suspects.html" title="Suspects">Les Suspects</a>
+            <a href="choix.html" title="Choix">Le Choix</a>
+        </div>
     </body>
 </html>
