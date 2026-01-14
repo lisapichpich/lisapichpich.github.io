@@ -1,12 +1,11 @@
-#gros_titre {
-    text-align: center;
-} 
 h1 {
     color: rgb(61, 44, 23);
+    text-align: center
 }
 h2 {
     color:black;
-    text-decoration: underline
+    text-decoration: underline;
+    text-align: center
 }
 body {
     background-color: rgb(167, 123, 82);
