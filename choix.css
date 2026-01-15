@@ -1,3 +1,28 @@
 body {
     background-color: rgb(167, 123, 82);
 }
+a {
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+.images {
+  display: flex;
+  margin-left: 20%;
+}
+
+.images img {
+  width: 80%;
+  object-fit: cover;
+  margin-right: 70px;
+  cursor: pointer;
+  border-width: 2px; border-style: solid; border-color: rgb(68, 47, 27);
+
+}
+h1 {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
